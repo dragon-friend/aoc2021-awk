@@ -2,7 +2,7 @@
 
 ## Written in POSIX AWK 
 
-Constraints: Every script must be short, hopefully written in just one line. I'll add them all to this file and then write one markdown file per day to document the code
+Constraints: Every script must be short, hopefully written in just one line. I'll add them all to this file and then write one markdown file per exercise to document the code
 
 ### Day 1:
 
