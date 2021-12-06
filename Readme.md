@@ -12,4 +12,6 @@ Exercise 2: `awk '{n+=(c>d)}{d=c}{c=$1+a+b}{b=a}{a=$1}END{print n-2}' input`
 
 ### Day 2
 
-Exercise 1: `awk '{if($1=="forward"){hp+=$2}else{($1=="down")?d+=$2:d-=$2}}END{print hp*d}' input`
+Exercise 1: `awk {($1=="forward")?h+=$2:($1=="up")?d-=$2:d+=$2}END{print h*d}' input`
+
+Exercise 2: `awk '{if($1=="forward"){h+=$2;d+=a*$2}else{($1=="up")?a-=$2:a+=$2}}END{print h*d}' input`
